@@ -1,0 +1,518 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -321.70994240039755,
+    "scrollLeft": -354.8219061076199,
+    "zoomLevel": 0.7,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Client Satisfaction",
+        "comment": "이용시 만족도",
+        "columns": [
+          {
+            "name": "Client Key",
+            "comment": "설문참여자의 고유번호",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 61.02685546875,
+              "widthComment": 120,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9c4731f5-3e2e-4d56-b2d3-cbf3d9d4ba26"
+          },
+          {
+            "name": "Satisfaction Key",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 94.55517578125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e6145e36-8f03-4f8b-9ec9-613536e002b3"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 809.1883,
+          "top": 586.0723,
+          "zIndex": 2,
+          "widthName": 107.3076171875,
+          "widthComment": 84.5703125
+        },
+        "visible": true,
+        "id": "69ff02f2-6def-40f1-9da0-866a52627068"
+      },
+      {
+        "name": "Client Base Information",
+        "comment": "이름, 이용빈도",
+        "columns": [
+          {
+            "name": "Client Key",
+            "comment": "설문참여자의 고유번호",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 61.02685546875,
+              "widthComment": 120,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "074f0147-e4a0-43c0-9de2-336943ea24f3"
+          },
+          {
+            "name": "Name",
+            "comment": "설문참여자의 이름 / 아이디로 해도 될 듯?",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 120,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d1af5a10-3526-4758-9c19-bb1b4b4d0b7c"
+          },
+          {
+            "name": "Visit",
+            "comment": "이용빈도",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2a161e43-204f-45ea-b796-bf259af017f8"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 142.4215,
+          "top": 391.9791,
+          "zIndex": 1,
+          "widthName": 140.35986328125,
+          "widthComment": 87.4140625
+        },
+        "visible": true,
+        "id": "bc735c87-977c-4f7b-80f0-7996eb432457"
+      },
+      {
+        "name": "Common Satisfaction Info",
+        "comment": "만족도 고유 번호",
+        "columns": [
+          {
+            "name": "Satisfaction Key",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 94.55517578125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "4115a13d-6d17-4198-bbb5-e1717a7ada81"
+          },
+          {
+            "name": "Satisfaction",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 69.1328125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "48e746dd-5000-42d0-a7db-0db9cc2eb4ce"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1564.2732,
+          "top": 489.3137,
+          "zIndex": 5,
+          "widthName": 155.4228515625,
+          "widthComment": 102.140625
+        },
+        "visible": true,
+        "id": "ef4206f1-8bc7-4440-8d94-ca1c4c112852"
+      },
+      {
+        "name": "Improvement Info",
+        "comment": "개선사항",
+        "columns": [
+          {
+            "name": "Client Key",
+            "comment": "설문참여자의 고유번호",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 61.02685546875,
+              "widthComment": 120,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "33657f16-509a-4180-901a-4d2a33f27b44"
+          },
+          {
+            "name": "Improvement",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 80.55859375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "25ad3d9e-ed9b-447f-8c02-940f19e57d16"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 808.8343,
+          "top": 225.641,
+          "zIndex": 3,
+          "widthName": 108.056640625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "17a722dc-9d27-4cc7-aa6f-67ef0b328d6c"
+      },
+      {
+        "name": "Kindness Info",
+        "comment": "친절도",
+        "columns": [
+          {
+            "name": "Client Key",
+            "comment": "설문참여자의 고유번호",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 61.02685546875,
+              "widthComment": 120,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0824f271-b9b4-4b3f-af27-617a4ae39755"
+          },
+          {
+            "name": "Satisfaction Key",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 94.55517578125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a554f4ba-c9ee-415d-81cd-0f6209e16bdb"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 805.6011,
+          "top": 407.0542,
+          "zIndex": 4,
+          "widthName": 81.447265625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "b4dfba54-233a-4f6d-afe3-c148f34fbca9"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "bc735c87-977c-4f7b-80f0-7996eb432457",
+          "columnIds": [
+            "074f0147-e4a0-43c0-9de2-336943ea24f3"
+          ],
+          "x": 550.44835546875,
+          "y": 500.7291,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "69ff02f2-6def-40f1-9da0-866a52627068",
+          "columnIds": [
+            "9c4731f5-3e2e-4d56-b2d3-cbf3d9d4ba26"
+          ],
+          "x": 809.1883,
+          "y": 641.0723,
+          "direction": "left"
+        },
+        "constraintName": "fk_client base information_to_빽다방 이용빈도",
+        "visible": true,
+        "id": "f1f58532-bace-446d-87a0-0f148545b2e1"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "ef4206f1-8bc7-4440-8d94-ca1c4c112852",
+          "columnIds": [
+            "4115a13d-6d17-4198-bbb5-e1717a7ada81"
+          ],
+          "x": 1564.2732,
+          "y": 571.8136999999999,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "69ff02f2-6def-40f1-9da0-866a52627068",
+          "columnIds": [
+            "e6145e36-8f03-4f8b-9ec9-613536e002b3"
+          ],
+          "x": 1250.74347578125,
+          "y": 641.0723,
+          "direction": "right"
+        },
+        "constraintName": "fk_common satisfaction info_to_빽다방 이용빈도",
+        "visible": true,
+        "id": "474ad620-2669-458c-b93d-6373318ae881"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "bc735c87-977c-4f7b-80f0-7996eb432457",
+          "columnIds": [
+            "074f0147-e4a0-43c0-9de2-336943ea24f3"
+          ],
+          "x": 550.44835546875,
+          "y": 457.2291,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "17a722dc-9d27-4cc7-aa6f-67ef0b328d6c",
+          "columnIds": [
+            "33657f16-509a-4180-901a-4d2a33f27b44"
+          ],
+          "x": 808.8343,
+          "y": 280.64099999999996,
+          "direction": "left"
+        },
+        "constraintName": "fk_client base information_to_improvement info",
+        "visible": true,
+        "id": "f8e68ddf-d250-4581-ae7e-cb2424e746b8"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "bc735c87-977c-4f7b-80f0-7996eb432457",
+          "columnIds": [
+            "074f0147-e4a0-43c0-9de2-336943ea24f3"
+          ],
+          "x": 550.44835546875,
+          "y": 413.7291,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "b4dfba54-233a-4f6d-afe3-c148f34fbca9",
+          "columnIds": [
+            "0824f271-b9b4-4b3f-af27-617a4ae39755"
+          ],
+          "x": 805.6011,
+          "y": 462.0542,
+          "direction": "left"
+        },
+        "constraintName": "fk_client base information_to_kindness",
+        "visible": true,
+        "id": "6bf92cd1-71c3-4c0a-8b4a-61097b1968db"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "ef4206f1-8bc7-4440-8d94-ca1c4c112852",
+          "columnIds": [
+            "4115a13d-6d17-4198-bbb5-e1717a7ada81"
+          ],
+          "x": 1564.2732,
+          "y": 516.8136999999999,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "b4dfba54-233a-4f6d-afe3-c148f34fbca9",
+          "columnIds": [
+            "a554f4ba-c9ee-415d-81cd-0f6209e16bdb"
+          ],
+          "x": 1247.1562757812499,
+          "y": 462.0542,
+          "direction": "right"
+        },
+        "constraintName": "fk_common satisfaction info_to_kindness",
+        "visible": true,
+        "id": "8e042caa-c474-45ea-9b01-146c1e2593ee"
+      }
+    ]
+  }
+}
