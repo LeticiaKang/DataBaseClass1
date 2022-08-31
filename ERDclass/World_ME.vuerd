@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -310.22902118431057,
-    "scrollLeft": -147.17557894767492,
-    "zoomLevel": 0.8,
+    "scrollTop": -263.20611836700357,
+    "scrollLeft": -87.32824808928433,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -48,7 +48,7 @@
         "columns": [
           {
             "name": "ID",
-            "comment": "아이디",
+            "comment": "",
             "dataType": "int",
             "default": "",
             "option": {
@@ -71,7 +71,7 @@
           },
           {
             "name": "Name",
-            "comment": "국가이름",
+            "comment": "수도 및 주도 이름",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -86,7 +86,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 106.7109375,
               "widthDataType": 73.677734375,
               "widthDefault": 60
             },
@@ -94,7 +94,7 @@
           },
           {
             "name": "District",
-            "comment": "지역",
+            "comment": "지역/도시/구 이름",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -109,7 +109,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 107.8662109375,
               "widthDataType": 73.677734375,
               "widthDefault": 60
             },
@@ -117,7 +117,7 @@
           },
           {
             "name": "Population",
-            "comment": "인구",
+            "comment": "",
             "dataType": "int",
             "default": "",
             "option": {
@@ -164,9 +164,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 64.4272,
-          "top": 251.2974,
-          "zIndex": 140,
+          "left": 65.1906,
+          "top": 249.0072,
+          "zIndex": 202,
           "widthName": 60,
           "widthComment": 60
         },
@@ -202,7 +202,7 @@
           },
           {
             "name": "Language",
-            "comment": "언어명",
+            "comment": "",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -274,7 +274,7 @@
           "active": false,
           "left": 589.3129,
           "top": 103.0535,
-          "zIndex": 124,
+          "zIndex": 219,
           "widthName": 125.30322265625,
           "widthComment": 71.5703125
         },
@@ -287,7 +287,7 @@
         "columns": [
           {
             "name": "Code",
-            "comment": "국가코드",
+            "comment": "국가코드 CountryCode",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -302,7 +302,7 @@
               "fk": true,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 120,
               "widthDataType": 73.677734375,
               "widthDefault": 60
             },
@@ -310,7 +310,7 @@
           },
           {
             "name": "Name",
-            "comment": "이름",
+            "comment": "국가명",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -333,7 +333,7 @@
           },
           {
             "name": "Continent",
-            "comment": "대륙명",
+            "comment": "",
             "dataType": "enum",
             "default": "",
             "option": {
@@ -356,7 +356,7 @@
           },
           {
             "name": "Region",
-            "comment": "지역",
+            "comment": "",
             "dataType": "varchar(200)se",
             "default": "",
             "option": {
@@ -379,7 +379,7 @@
           },
           {
             "name": "SurfaceArea",
-            "comment": "면적",
+            "comment": "",
             "dataType": "decimal",
             "default": "",
             "option": {
@@ -402,7 +402,7 @@
           },
           {
             "name": "IndepYear",
-            "comment": "독립연도",
+            "comment": "",
             "dataType": "smallint",
             "default": "",
             "option": {
@@ -425,7 +425,7 @@
           },
           {
             "name": "Population",
-            "comment": "인구",
+            "comment": "",
             "dataType": "int",
             "default": "",
             "option": {
@@ -448,7 +448,7 @@
           },
           {
             "name": "LifeExpectancy",
-            "comment": "수명",
+            "comment": "",
             "dataType": "decimal",
             "default": "",
             "option": {
@@ -471,7 +471,7 @@
           },
           {
             "name": "GNP",
-            "comment": "국민총생산",
+            "comment": "",
             "dataType": "decimal",
             "default": "",
             "option": {
@@ -486,7 +486,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 67,
+              "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -517,7 +517,7 @@
           },
           {
             "name": "LocalName",
-            "comment": "지역명",
+            "comment": "",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -540,7 +540,7 @@
           },
           {
             "name": "GovernmentForm",
-            "comment": "정부체제",
+            "comment": "",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -563,7 +563,7 @@
           },
           {
             "name": "HeadOfState",
-            "comment": "대통령?",
+            "comment": "",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -586,7 +586,7 @@
           },
           {
             "name": "Capital",
-            "comment": "수도",
+            "comment": "",
             "dataType": "int",
             "default": "",
             "option": {
@@ -634,8 +634,8 @@
         "ui": {
           "active": false,
           "left": 577.3701,
-          "top": 359.7284,
-          "zIndex": 139,
+          "top": 360.4918,
+          "zIndex": 227,
           "widthName": 70.94189453125,
           "widthComment": 60
         },
@@ -668,8 +668,8 @@
           "columnIds": [
             "3eb6784d-0158-40d6-863a-712b9ba29ed0"
           ],
-          "x": 445.04780546874997,
-          "y": 337.04740000000004,
+          "x": 493.67741640625,
+          "y": 334.7572,
           "direction": "right"
         },
         "constraintName": "fk_countrylanguage_to_city",
@@ -694,8 +694,8 @@
           "columnIds": [
             "cfa6d6df-1366-4d5b-8bd2-0fed375e4faf"
           ],
-          "x": 804.59129140625,
-          "y": 359.7284,
+          "x": 816.44090078125,
+          "y": 360.4918,
           "direction": "top"
         },
         "constraintName": "fk_countrylanguage_me_to_country_me",
