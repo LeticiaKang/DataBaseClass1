@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -263.20611836700357,
-    "scrollLeft": -87.32824808928433,
-    "zoomLevel": 1,
+    "scrollTop": -212.5190932522438,
+    "scrollLeft": -130.07634155956328,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -117,7 +117,7 @@
           },
           {
             "name": "Population",
-            "comment": "",
+            "comment": "인구",
             "dataType": "int",
             "default": "",
             "option": {
@@ -164,9 +164,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 65.1906,
-          "top": 249.0072,
-          "zIndex": 202,
+          "left": 71.2972,
+          "top": 433.57,
+          "zIndex": 8,
           "widthName": 60,
           "widthComment": 60
         },
@@ -202,7 +202,7 @@
           },
           {
             "name": "Language",
-            "comment": "",
+            "comment": "언어명",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -272,9 +272,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 589.3129,
-          "top": 103.0535,
-          "zIndex": 219,
+          "left": 86.5149,
+          "top": 156.6581,
+          "zIndex": 5,
           "widthName": 125.30322265625,
           "widthComment": 71.5703125
         },
@@ -333,7 +333,7 @@
           },
           {
             "name": "Continent",
-            "comment": "",
+            "comment": "대륙",
             "dataType": "enum",
             "default": "",
             "option": {
@@ -379,7 +379,7 @@
           },
           {
             "name": "SurfaceArea",
-            "comment": "",
+            "comment": "면적",
             "dataType": "decimal",
             "default": "",
             "option": {
@@ -402,7 +402,7 @@
           },
           {
             "name": "IndepYear",
-            "comment": "",
+            "comment": "독립연도",
             "dataType": "smallint",
             "default": "",
             "option": {
@@ -425,7 +425,7 @@
           },
           {
             "name": "Population",
-            "comment": "",
+            "comment": "인구",
             "dataType": "int",
             "default": "",
             "option": {
@@ -448,7 +448,7 @@
           },
           {
             "name": "LifeExpectancy",
-            "comment": "",
+            "comment": "수명",
             "dataType": "decimal",
             "default": "",
             "option": {
@@ -471,7 +471,7 @@
           },
           {
             "name": "GNP",
-            "comment": "",
+            "comment": "국민총생산",
             "dataType": "decimal",
             "default": "",
             "option": {
@@ -486,7 +486,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 67,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -517,7 +517,7 @@
           },
           {
             "name": "LocalName",
-            "comment": "",
+            "comment": "지역명",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -540,7 +540,7 @@
           },
           {
             "name": "GovernmentForm",
-            "comment": "",
+            "comment": "정부형태",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -563,7 +563,7 @@
           },
           {
             "name": "HeadOfState",
-            "comment": "",
+            "comment": "대통령",
             "dataType": "varchar(200)",
             "default": "",
             "option": {
@@ -586,7 +586,7 @@
           },
           {
             "name": "Capital",
-            "comment": "",
+            "comment": "수도",
             "dataType": "int",
             "default": "",
             "option": {
@@ -632,10 +632,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 577.3701,
-          "top": 360.4918,
-          "zIndex": 227,
+          "active": true,
+          "left": 588.2269,
+          "top": 241.0681,
+          "zIndex": 37,
           "widthName": 70.94189453125,
           "widthComment": 60
         },
@@ -659,18 +659,18 @@
           "columnIds": [
             "a547b3cd-a336-4574-b46c-bb9600c8b0d4"
           ],
-          "x": 589.3129,
-          "y": 178.55349999999999,
-          "direction": "left"
+          "x": 286.825202734375,
+          "y": 307.6581,
+          "direction": "bottom"
         },
         "end": {
           "tableId": "dbf6c452-d07e-466a-9dc3-508a76b1326b",
           "columnIds": [
             "3eb6784d-0158-40d6-863a-712b9ba29ed0"
           ],
-          "x": 493.67741640625,
-          "y": 334.7572,
-          "direction": "right"
+          "x": 285.540608203125,
+          "y": 433.57,
+          "direction": "top"
         },
         "constraintName": "fk_countrylanguage_to_city",
         "visible": true,
@@ -685,18 +685,18 @@
           "columnIds": [
             "a547b3cd-a336-4574-b46c-bb9600c8b0d4"
           ],
-          "x": 789.623202734375,
-          "y": 254.05349999999999,
-          "direction": "bottom"
+          "x": 487.13550546875,
+          "y": 232.1581,
+          "direction": "right"
         },
         "end": {
           "tableId": "a10e7bd9-8127-4135-9a27-1cbae80d825b",
           "columnIds": [
             "cfa6d6df-1366-4d5b-8bd2-0fed375e4faf"
           ],
-          "x": 816.44090078125,
-          "y": 360.4918,
-          "direction": "top"
+          "x": 588.2269,
+          "y": 429.31809999999996,
+          "direction": "left"
         },
         "constraintName": "fk_countrylanguage_me_to_country_me",
         "visible": true,
