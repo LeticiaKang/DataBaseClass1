@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": 0,
-    "zoomLevel": 1,
+    "scrollTop": -249.16031622676886,
+    "scrollLeft": -737.709955887099,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -182,7 +182,7 @@
           "active": false,
           "left": 142.4215,
           "top": 391.9791,
-          "zIndex": 5,
+          "zIndex": 10,
           "widthName": 94.60595703125,
           "widthComment": 87.4140625
         },
@@ -304,9 +304,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 819.8266,
-          "top": 172.8781,
-          "zIndex": 3,
+          "left": 822.1163,
+          "top": 179.7481,
+          "zIndex": 11,
           "widthName": 108.056640625,
           "widthComment": 60
         },
@@ -453,8 +453,8 @@
           "columnIds": [
             "33657f16-509a-4180-901a-4d2a33f27b44"
           ],
-          "x": 819.8266,
-          "y": 227.8781,
+          "x": 822.1163,
+          "y": 234.7481,
           "direction": "left"
         },
         "constraintName": "fk_client base information_to_improvement info",
