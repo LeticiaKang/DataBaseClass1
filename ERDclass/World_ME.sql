@@ -14,7 +14,7 @@ CREATE TABLE country_me
   Code           varchar(200)   NOT NULL COMMENT '국가코드 CountryCode',
   Name           varchar(200)   NOT NULL COMMENT '국가명',
   Continent      enum           NULL     COMMENT '대륙',
-  Region         varchar(200)se NULL    ,
+  Region         varchar(200) NULL    ,
   SurfaceArea    decimal        NULL     COMMENT '면적',
   IndepYear      smallint       NULL     COMMENT '독립연도',
   Population     int            NULL     COMMENT '인구',

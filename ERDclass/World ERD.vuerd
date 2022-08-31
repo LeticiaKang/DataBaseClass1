@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -212.5190932522438,
-    "scrollLeft": -130.07634155956328,
+    "scrollTop": -223.51146014460124,
+    "scrollLeft": -127.0229063116862,
     "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
@@ -53,13 +53,13 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": true,
+              "primaryKey": false,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": true,
+              "pk": false,
               "fk": false,
               "pfk": false,
               "widthName": 60,
@@ -166,7 +166,7 @@
           "active": false,
           "left": 71.2972,
           "top": 433.57,
-          "zIndex": 8,
+          "zIndex": 65,
           "widthName": 60,
           "widthComment": 60
         },
@@ -274,7 +274,7 @@
           "active": false,
           "left": 86.5149,
           "top": 156.6581,
-          "zIndex": 5,
+          "zIndex": 59,
           "widthName": 125.30322265625,
           "widthComment": 71.5703125
         },
@@ -357,7 +357,7 @@
           {
             "name": "Region",
             "comment": "",
-            "dataType": "varchar(200)se",
+            "dataType": "varchar(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -372,7 +372,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 86.26513671875,
+              "widthDataType": 73.677734375,
               "widthDefault": 60
             },
             "id": "eedd4fdd-ce97-4f44-ae5a-895b61616cfe"
@@ -610,7 +610,7 @@
           {
             "name": "Code2",
             "comment": "국가코드 앞 2자",
-            "dataType": "",
+            "dataType": "varchar(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -625,17 +625,17 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 96.30078125,
-              "widthDataType": 60,
+              "widthDataType": 73.677734375,
               "widthDefault": 60
             },
             "id": "c33de22e-765d-467b-a288-ebee9b2190e2"
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 588.2269,
           "top": 241.0681,
-          "zIndex": 37,
+          "zIndex": 64,
           "widthName": 70.94189453125,
           "widthComment": 60
         },
