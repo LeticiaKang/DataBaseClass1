@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": 0,
-    "zoomLevel": 0.8,
+    "scrollTop": -309.00764708516016,
+    "scrollLeft": -111.76081324876607,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -48,7 +48,7 @@
         "columns": [
           {
             "name": "CustomerID",
-            "comment": "",
+            "comment": "고객 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -63,7 +63,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 71.38623046875,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -71,7 +71,7 @@
           },
           {
             "name": "CustomerName",
-            "comment": "",
+            "comment": "고객 이름",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -94,7 +94,7 @@
           },
           {
             "name": "ContactName",
-            "comment": "",
+            "comment": "고객 연락처",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -109,7 +109,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 82.5263671875,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -117,7 +117,7 @@
           },
           {
             "name": "\tAddress",
-            "comment": "",
+            "comment": "고객 주소",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -140,7 +140,7 @@
           },
           {
             "name": "City",
-            "comment": "",
+            "comment": "고객 거주 도시",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -155,7 +155,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 89.140625,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -163,7 +163,7 @@
           },
           {
             "name": "\tPostalCode",
-            "comment": "",
+            "comment": "고객 우편번호",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -178,7 +178,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 72.154296875,
-              "widthComment": 60,
+              "widthComment": 84.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -186,7 +186,7 @@
           },
           {
             "name": "\tCountry",
-            "comment": "",
+            "comment": "고객 나라",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -211,8 +211,8 @@
         "ui": {
           "active": false,
           "left": 133.0288,
-          "top": 76.5893,
-          "zIndex": 366,
+          "top": 77.2,
+          "zIndex": 472,
           "widthName": 64.27685546875,
           "widthComment": 60
         },
@@ -225,7 +225,7 @@
         "columns": [
           {
             "name": "CategoryID",
-            "comment": "",
+            "comment": "카테고리 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -240,7 +240,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 68.3583984375,
-              "widthComment": 60,
+              "widthComment": 97.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -248,7 +248,7 @@
           },
           {
             "name": "\tCategoryName",
-            "comment": "",
+            "comment": "카테고리 이름",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -263,7 +263,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 95.1962890625,
-              "widthComment": 60,
+              "widthComment": 84.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -271,7 +271,7 @@
           },
           {
             "name": "\tDescription",
-            "comment": "",
+            "comment": "카테고리 설명",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -286,7 +286,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 73.21435546875,
-              "widthComment": 60,
+              "widthComment": 84.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -297,7 +297,7 @@
           "active": false,
           "left": 149.3238,
           "top": 602.4426,
-          "zIndex": 394,
+          "zIndex": 479,
           "widthName": 64.34033203125,
           "widthComment": 60
         },
@@ -310,7 +310,7 @@
         "columns": [
           {
             "name": "EmployeeID",
-            "comment": "",
+            "comment": "직원 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -325,7 +325,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 72.0400390625,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -333,7 +333,7 @@
           },
           {
             "name": "LastName",
-            "comment": "",
+            "comment": "직원 성",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -356,7 +356,7 @@
           },
           {
             "name": "FirstName",
-            "comment": "",
+            "comment": "직원 이름",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -379,7 +379,7 @@
           },
           {
             "name": "BirthDate",
-            "comment": "",
+            "comment": "직원 생일",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -402,7 +402,7 @@
           },
           {
             "name": "Photo",
-            "comment": "",
+            "comment": "직원 사진",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -425,7 +425,7 @@
           },
           {
             "name": "Notes",
-            "comment": "",
+            "comment": "직원 특이사항",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -440,7 +440,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 84.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -451,7 +451,7 @@
           "active": false,
           "left": 64.8969,
           "top": 367.4817,
-          "zIndex": 374,
+          "zIndex": 476,
           "widthName": 64.83544921875,
           "widthComment": 60
         },
@@ -464,7 +464,7 @@
         "columns": [
           {
             "name": "OrderID",
-            "comment": "",
+            "comment": "주문 번호",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -487,7 +487,7 @@
           },
           {
             "name": "OrderDetailID",
-            "comment": "",
+            "comment": "주문 세부 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -502,7 +502,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 82.6025390625,
-              "widthComment": 60,
+              "widthComment": 102.140625,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -510,7 +510,7 @@
           },
           {
             "name": "ProductID",
-            "comment": "",
+            "comment": "상품 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -525,7 +525,7 @@
               "fk": true,
               "pfk": false,
               "widthName": 60.423828125,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -533,7 +533,7 @@
           },
           {
             "name": "Quantity",
-            "comment": "",
+            "comment": "수량",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -559,7 +559,7 @@
           "active": false,
           "left": 715.5837,
           "top": 377.0986,
-          "zIndex": 448,
+          "zIndex": 589,
           "widthName": 75.39794921875,
           "widthComment": 60
         },
@@ -572,7 +572,7 @@
         "columns": [
           {
             "name": "OrderID",
-            "comment": "",
+            "comment": "주문 번호",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -595,7 +595,7 @@
           },
           {
             "name": "CustomerID",
-            "comment": "",
+            "comment": "고객 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -610,7 +610,7 @@
               "fk": true,
               "pfk": false,
               "widthName": 71.38623046875,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -618,7 +618,7 @@
           },
           {
             "name": "EmployeeID",
-            "comment": "",
+            "comment": "직원 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -633,7 +633,7 @@
               "fk": true,
               "pfk": false,
               "widthName": 72.0400390625,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -641,7 +641,7 @@
           },
           {
             "name": "OrderDate",
-            "comment": "",
+            "comment": "주문 날짜",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -664,7 +664,7 @@
           },
           {
             "name": "ShipperID",
-            "comment": "",
+            "comment": "배송처 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -679,7 +679,7 @@
               "fk": true,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 84.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -690,7 +690,7 @@
           "active": false,
           "left": 720.7756,
           "top": 101.3734,
-          "zIndex": 431,
+          "zIndex": 575,
           "widthName": 60,
           "widthComment": 60
         },
@@ -703,7 +703,7 @@
         "columns": [
           {
             "name": "ProductID",
-            "comment": "",
+            "comment": "상품 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -718,7 +718,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60.423828125,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -726,7 +726,7 @@
           },
           {
             "name": "ProductName",
-            "comment": "",
+            "comment": "상품 이름",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -749,7 +749,7 @@
           },
           {
             "name": "SupplierID",
-            "comment": "",
+            "comment": "판매처 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -764,7 +764,7 @@
               "fk": true,
               "pfk": false,
               "widthName": 62.9755859375,
-              "widthComment": 60,
+              "widthComment": 84.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -772,7 +772,7 @@
           },
           {
             "name": "CategoryID",
-            "comment": "",
+            "comment": "카테고리 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -787,7 +787,7 @@
               "fk": true,
               "pfk": false,
               "widthName": 68.3583984375,
-              "widthComment": 60,
+              "widthComment": 97.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -795,7 +795,7 @@
           },
           {
             "name": "Unit",
-            "comment": "",
+            "comment": "상품 재고",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -818,7 +818,7 @@
           },
           {
             "name": "Price",
-            "comment": "",
+            "comment": "상품 가격",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -844,7 +844,7 @@
           "active": false,
           "left": 705.6594,
           "top": 670.6878,
-          "zIndex": 445,
+          "zIndex": 593,
           "widthName": 60,
           "widthComment": 60
         },
@@ -857,7 +857,7 @@
         "columns": [
           {
             "name": "SupplierID",
-            "comment": "",
+            "comment": "판매처 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -872,7 +872,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 62.9755859375,
-              "widthComment": 60,
+              "widthComment": 84.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -880,7 +880,7 @@
           },
           {
             "name": "SupplierName",
-            "comment": "",
+            "comment": "판매처 이름",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -895,7 +895,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 85.2431640625,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -903,7 +903,7 @@
           },
           {
             "name": "ContactName",
-            "comment": "",
+            "comment": "판매처 대표 이름",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -918,7 +918,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 82.5263671875,
-              "widthComment": 60,
+              "widthComment": 102.140625,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -926,7 +926,7 @@
           },
           {
             "name": "Address",
-            "comment": "",
+            "comment": "판매처 주소",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -941,7 +941,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -949,7 +949,7 @@
           },
           {
             "name": "City",
-            "comment": "",
+            "comment": "판매처 도시",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -964,7 +964,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -972,7 +972,7 @@
           },
           {
             "name": "PostalCode",
-            "comment": "",
+            "comment": "판매처 우편번호",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -987,7 +987,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 67.583984375,
-              "widthComment": 60,
+              "widthComment": 97.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -995,7 +995,7 @@
           },
           {
             "name": "Country",
-            "comment": "",
+            "comment": "판매처 국가",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -1010,7 +1010,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -1018,7 +1018,7 @@
           },
           {
             "name": "Phone",
-            "comment": "",
+            "comment": "판매처 연락처",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -1033,7 +1033,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 84.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -1042,9 +1042,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1327.6459,
-          "top": 545.0388,
-          "zIndex": 392,
+          "left": 1327.0352,
+          "top": 544.4281,
+          "zIndex": 543,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1057,7 +1057,7 @@
         "columns": [
           {
             "name": "ShipperID",
-            "comment": "",
+            "comment": "배송처 아이디",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -1072,7 +1072,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 84.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -1080,7 +1080,7 @@
           },
           {
             "name": "ShipperName",
-            "comment": "",
+            "comment": "배송처 이름",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -1095,7 +1095,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 82.05029296875,
-              "widthComment": 60,
+              "widthComment": 71.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -1103,7 +1103,7 @@
           },
           {
             "name": "Phone",
-            "comment": "",
+            "comment": "배송처 연락처",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -1118,7 +1118,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 84.5703125,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
@@ -1129,7 +1129,7 @@
           "active": false,
           "left": 1243.3705,
           "top": 51.2974,
-          "zIndex": 377,
+          "zIndex": 585,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1162,7 +1162,7 @@
           "columnIds": [
             "7a84d1c0-c61b-4969-8842-a3be2fa72248"
           ],
-          "x": 1079.8156390625,
+          "x": 1104.3859515625,
           "y": 187.1234,
           "direction": "right"
         },
@@ -1179,7 +1179,7 @@
           "columnIds": [
             "04a7aba1-ebc3-4b45-815d-9e3de12742b0"
           ],
-          "x": 560.8130578125,
+          "x": 598.3833703125,
           "y": 667.6926,
           "direction": "right"
         },
@@ -1205,8 +1205,8 @@
           "columnIds": [
             "a06b4a6a-9313-4539-aa51-e2a812869487"
           ],
-          "x": 542.97557734375,
-          "y": 182.83929999999998,
+          "x": 572.11620234375,
+          "y": 183.45,
           "direction": "right"
         },
         "end": {
@@ -1231,7 +1231,7 @@
           "columnIds": [
             "685746ab-a9c7-4791-b8e9-22ff5a939ad4"
           ],
-          "x": 453.2299078125,
+          "x": 477.8002203125,
           "y": 463.4817,
           "direction": "right"
         },
@@ -1257,8 +1257,8 @@
           "columnIds": [
             "054089f1-4a9a-419a-8388-d2c7ae3feefc"
           ],
-          "x": 1327.6459,
-          "y": 661.5388,
+          "x": 1327.0352,
+          "y": 660.9281,
           "direction": "left"
         },
         "end": {
@@ -1266,7 +1266,7 @@
           "columnIds": [
             "2293ece2-0604-4df9-b060-960ae95d2f51"
           ],
-          "x": 1104.643775,
+          "x": 1142.2140875,
           "y": 766.6878,
           "direction": "right"
         },
@@ -1283,7 +1283,7 @@
           "columnIds": [
             "c69b8754-9061-4f36-bfe0-5b2b0ec2cb5f"
           ],
-          "x": 900.29561953125,
+          "x": 912.58077578125,
           "y": 272.8734,
           "direction": "bottom"
         },
@@ -1292,7 +1292,7 @@
           "columnIds": [
             "edebf976-2983-4856-9f3a-e035f116abef"
           ],
-          "x": 900.38496953125,
+          "x": 921.45528203125,
           "y": 377.0986,
           "direction": "top"
         },
@@ -1309,7 +1309,7 @@
           "columnIds": [
             "8f54e259-a632-4d86-b37c-04227e41c07d"
           ],
-          "x": 905.1515875,
+          "x": 923.93674375,
           "y": 670.6878,
           "direction": "top"
         },
@@ -1318,7 +1318,7 @@
           "columnIds": [
             "457d3ee0-14b6-4732-bfc9-e039dc5956a9"
           ],
-          "x": 900.38496953125,
+          "x": 921.45528203125,
           "y": 528.0986,
           "direction": "bottom"
         },
