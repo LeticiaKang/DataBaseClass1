@@ -1,19 +1,19 @@
 
 CREATE TABLE COMPANY
 (
-  ID      VARCHAT(200) NOT NULL COMMENT 'unique id',
-  NAME    VARCHAT(200) NOT NULL COMMENT '이름',
-  AGE     INT          NULL     COMMENT '나이',
-  ADDRESS VARCHAT(200) NULL     COMMENT '주소',
+  ID      varchar(200) NOT NULL COMMENT 'unique id',
+  NAME    varchar(200) NOT NULL COMMENT '이름',
+  AGE     INT          NULL COMMENT '나이',
+  ADDRESS varchar(200) NULL COMMENT '주소',
   SALARY  INT          NOT NULL COMMENT '급여',
   PRIMARY KEY (ID)
 ) COMMENT '회사';
 
 CREATE TABLE DEPARTMENT
 (
-  ID     VARCHAT(200) NOT NULL COMMENT 'unique id',
+  ID     varchar(200) NOT NULL COMMENT 'unique id',
   DEPT   VARCHAR(200) NOT NULL COMMENT '부서',
-  EMP_ID VARCHAT(200) NOT NULL COMMENT 'unique id',
+  EMP_ID varchar(200) NOT NULL COMMENT 'unique id',
   PRIMARY KEY (ID)
 ) COMMENT '부서';
 

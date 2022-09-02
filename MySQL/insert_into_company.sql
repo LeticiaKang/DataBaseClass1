@@ -1,0 +1,23 @@
+-- INSERT INTO table_name (column1, column2, column3, ...)
+-- VALUES (value1, value2, value3, ...);
+
+INSERT INTO COMPANY (ID, NAME, AGE, ADDRESS, SALARY)
+VALUES ('124', '홍길동', 19, '서울시', 20000)
+;
+
+INSERT INTO COMPANY (ID, NAME, SALARY)
+VALUES ('231', '강은정2', 20000)
+;
+
+INSERT INTO COMPANY (ID, NAME, SALARY)
+VALUES ('232', '강은정3', 93939393)
+;
+
+INSERT INTO COMPANY (ID, NAME, SALARY)
+VALUES ('234', '강은정4', 91111)
+;
+
+INSERT INTO COMPANY (ID, NAME, SALARY)
+VALUES ('235', '강은정5', 55553)
+;
+
