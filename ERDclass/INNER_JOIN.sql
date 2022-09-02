@@ -4,7 +4,7 @@ SELECT Orders.OrderID
         , Customers.CustomerName
         , Shippers.ShipperName
         , Products.ProductName
-FROM (
+FROM ( 
         (
             (
                 (
