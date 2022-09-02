@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -218.62596374799847,
-    "scrollLeft": -517.8626180399523,
-    "zoomLevel": 0.9,
+    "scrollTop": -307.78627298600856,
+    "scrollLeft": -754.8091932752113,
+    "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -556,10 +556,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 706.899,
           "top": 438.0308,
-          "zIndex": 41,
+          "zIndex": 58,
           "widthName": 75.39794921875,
           "widthComment": 60
         },
@@ -842,9 +842,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1241.8421,
-          "top": 419.0849,
-          "zIndex": 32,
+          "left": 1257.1095,
+          "top": 391.6042,
+          "zIndex": 65,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1188,8 +1188,8 @@
           "columnIds": [
             "c72d72e0-f706-472c-bda5-41d03847719d"
           ],
-          "x": 1460.11944375,
-          "y": 419.0849,
+          "x": 1475.38684375,
+          "y": 391.6042,
           "direction": "top"
         },
         "constraintName": "fk_categories_to_products",
@@ -1266,8 +1266,8 @@
           "columnIds": [
             "2293ece2-0604-4df9-b060-960ae95d2f51"
           ],
-          "x": 1460.11944375,
-          "y": 611.0849000000001,
+          "x": 1475.38684375,
+          "y": 583.6042,
           "direction": "bottom"
         },
         "constraintName": "fk_suppliers_to_products",
@@ -1283,8 +1283,8 @@
           "columnIds": [
             "8f54e259-a632-4d86-b37c-04227e41c07d"
           ],
-          "x": 1241.8421,
-          "y": 515.0849000000001,
+          "x": 1257.1095,
+          "y": 487.6042,
           "direction": "left"
         },
         "end": {
