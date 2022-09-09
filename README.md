@@ -1,2 +1,2 @@
-# DataBaseClass1
-DataBaseClass 작업 저장공간
+# DataBaseClass
+DataBase수업간 활동 내용
