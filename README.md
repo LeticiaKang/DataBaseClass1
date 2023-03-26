@@ -1,2 +1,3 @@
-# DataBaseClass
-DataBase수업간 활동 내용
+# DataBase와 SQL 학습내용
+- ERD
+- DataBase
